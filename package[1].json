@@ -1,0 +1,19 @@
+{
+  "name": "orbitdb-go-ipfs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "nodemon src/index.js"
+  },
+  "dependencies": {
+    "go-ipfs-dep": "^0.4.23-3",
+    "ipfs-http-client": "^43.0.1",
+    "ipfsd-ctl": "^3.1.0",
+    "orbit-db": "phillmac/orbit-db"
+  },
+  "devDependencies": {
+    "nodemon": "1.18.4"
+  },
+  "keywords": []
+}
